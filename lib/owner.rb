@@ -12,7 +12,7 @@ class Owner
   end
 
   def name 
-  @name = name   
+  @@name = name   
   end 
   
   def self.all
